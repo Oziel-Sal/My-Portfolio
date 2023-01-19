@@ -1,9 +1,15 @@
 import './App.css';
-import HireButton from './components/home/HireButton';
+import HireButton from './components/HireButton';
+import Information from './components/Information';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <HireButton />
+    <>
+      <Navbar />
+      <Information />
+      <HireButton />
+    </>
   );
 }
 
