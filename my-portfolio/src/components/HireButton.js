@@ -4,7 +4,7 @@ const HireButton = () => {
     return (
         <Box sx={{
             width: 'fixed',
-            height: '169px',
+            height: '134px',
             background: '#FF0000',
         }}/>
     )
